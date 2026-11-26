@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.env/
+.venv/
+
+# Anaconda / Miniconda
+Miniconda3-latest-Windows-x86_64.exe
+aconda/
+conda.yaml
+environment.yml
+
+# Streamlit
+.streamlit/secrets.toml
+
+# HDF5 / OS specific
+.DS_Store
+Thumbs.db
+
+# Visual Studio / Build artifacts
+*.pdb
+*.obj
+*.ncb
+*.filters
+*.suo
+*.user
+
+# Machine learning model checkpoints (store separately or use LFS)
+# *.pth
+
+# Sample data - will be added manually
+# *.h5 (sample .h5 files should be tracked, but large datasets should use LFS)
+
+# Windows specific
+ehthumbs.db
